@@ -1,0 +1,32 @@
+Vips:
+  vip1:
+    # Para pegar o nome do player utilize %player%
+    command-activatevip: 'lp user %player% parent set DIAMOND'
+    command-reward: ''
+  vip2:
+    # Para pegar o nome do player utilize %player%
+    command-activatevip: 'lp user %player% parent set GOLD'
+    command-reward: ''
+  vip3:
+    # Para pegar o nome do player utilize %player%
+    command-activatevip: 'lp user %player% parent set IRON'
+    command-reward: ''
+
+Mensagens:
+  msg-noPermission: '&c&lERRO! §cVocê não tem permissão para executar este comando!'
+  usage-CommandActivateVip: '&cUse /ativarvip <vip>.'
+  activating-Vip: '&aAtivando seu VIP...'
+  activateVip-Iron: '&aSucesso! ''&f[VIP Ferro]&a'' foi ativado.'
+  activateVip-Gold: '&aSucesso! ''&e[VIP Ouro]§a'' foi ativado.'
+  activateVip-Diamond: '&aSucesso! ''&b[VIP Diamante]&a'' foi ativado.'
+  reward-Received: '&aSuas recompensas vips foram recebidas!'
+  reward-NotReceived: '&cNão foi dessa vez! Boa sorte na próxima.'
+  vip-NotFound: '&cVIP não encontrado!'
+  command-NotPlayer: '&cComando apenas para jogadores!'
+options:
+  database:
+    user: 'root'
+    pass: ''
+    host: 'localhost'
+    port: 3306
+    db: 'spaceplugins'
