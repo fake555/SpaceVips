@@ -7,7 +7,7 @@
 - Totalmente otimizado, performance máxima
 - É Enviado título no meio da tela ao player ativar um vip
 - É soltado um foguete na localização que o player que ativou o vip está
-- Pode criar até 3 vips
+- Pode criar infinitos vips
 - Tem placeholder que mostra quantidade de vips ativada pelo jogador ( %player_vips_quantity )
 - Para o plugin funcionar é necessário conecta-lo ao MySQL
 
